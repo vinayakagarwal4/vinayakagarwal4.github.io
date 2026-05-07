@@ -12,17 +12,6 @@ I am a founding team member and Principal AI Engineer at [K-Dense](https://k-den
 
 ---
 
-K-Dense
-======
-
-K-Dense grew out of Biostate AI, which the founding team built with the goal of applying large-scale AI to the biology of aging and disease. The core belief is simple but ambitious: AI systems should be able to do science, not just assist with it.
-
-The work I am most proud of from this chapter is a collaboration with [Prof. David Sinclair](https://sinclair.hms.harvard.edu/) at Harvard Medical School — one of the world's leading researchers on the biology of aging. Together, we produced what we believe is among the first life sciences papers conducted end-to-end with AI collaboration: from data curation and hypothesis generation through analysis, interpretation, and writing. The paper maps tissue-specific aging signatures across the human transcriptome at unprecedented scale, and was made possible by autonomous AI pipelines that would have taken a conventional research team years to execute. This project represents the clearest proof-of-concept I have for the vision driving all of my work at K-Dense.
-
-Beyond that collaboration, I spend my time building the AI infrastructure that makes this kind of science possible: foundation models trained on large biological datasets, autonomous multi-agent systems for scientific analysis, and methods for extracting calibrated, interpretable knowledge from high-dimensional biological measurements. The goal is always the same: compress the timelines of biological discovery, and make the kind of science that usually takes decades take months.
-
----
-
 Vision: AI for Science
 ======
 
@@ -31,6 +20,17 @@ We are at an inflection point. For most of human history, scientific progress ha
 My vision is a future in which AI agents serve as genuine scientific collaborators: reading the literature, formulating hypotheses, designing analyses, interpreting results, and synthesizing findings into actionable knowledge. Not as a replacement for human scientists, but as a force multiplier that frees them to think at higher levels of abstraction.
 
 The deeper principle is that good science and good AI are made of the same stuff: rigorous generative models, calibrated uncertainty, and a commitment to understanding mechanism rather than just predicting outcomes.
+
+---
+
+K-Dense
+======
+
+K-Dense grew out of Biostate AI, which the founding team built with the goal of applying large-scale AI to the biology of aging and disease. The core belief is simple but ambitious: AI systems should be able to do science, not just assist with it.
+
+The work I am most proud of from this chapter is a collaboration with [Prof. David Sinclair](https://sinclair.hms.harvard.edu/) at Harvard Medical School — one of the world's leading researchers on the biology of aging. Together, we produced what we believe is among the first life sciences papers conducted end-to-end with AI collaboration: from data curation and hypothesis generation through analysis, interpretation, and writing. The paper maps tissue-specific aging signatures across the human transcriptome at unprecedented scale, and was made possible by autonomous AI pipelines that would have taken a conventional research team years to execute. This project represents the clearest proof-of-concept I have for the vision driving all of my work at K-Dense.
+
+Beyond that collaboration, I spend my time building the AI infrastructure that makes this kind of science possible: foundation models trained on large biological datasets, autonomous multi-agent systems for scientific analysis, and methods for extracting calibrated, interpretable knowledge from high-dimensional biological measurements. The goal is always the same: compress the timelines of biological discovery, and make the kind of science that usually takes decades take months.
 
 ---
 
