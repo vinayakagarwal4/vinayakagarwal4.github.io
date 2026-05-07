@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Vinayak Agarwal's homepage"
 title_separator          : "-"
 name                     : &name "Vinayak Agarwal"
-description              : &description "personal description"
+description              : &description "Principal AI Engineer at K-Dense | MIT PhD '25 in Brain and Cognitive Sciences | Building AI systems for biology and aging"
 url                      : "https://www.vinayak-agarwal.com" #"https://vinayakagarwal4.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "vinayakagarwal4/vinayakagarwal4.github.io"
@@ -82,12 +82,12 @@ analytics:
 author:
   name             : "Vinayak Agarwal"
   avatar           : "220815a_448.jpg"
-  bio              : "MIT MechE PhD Candidate | McDermott Lab"
-  location         : "Massachusetts Institute of Technology"
-  employer         : #"MIT"
+  bio              : "Principal AI Engineer @ K-Dense | MIT PhD '25 (McDermott Lab, BCS)"
+  location         : "Palo Alto, CA"
+  employer         : "K-Dense Inc."
   pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
-  googlescholar    : #"http://yourfullgooglescholarurl.com"
-  email            : "vinayaka@mit.edu"
+  googlescholar    : "https://scholar.google.com/citations?user=NTuU8YIAAAAJ"
+  email            : "vinayak.agarwal@k-dense.ai"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
@@ -96,7 +96,7 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : #"academicpages"
+  github           : "vinayakagarwal4"
   google_plus      :
   keybase          :
   instagram        :
