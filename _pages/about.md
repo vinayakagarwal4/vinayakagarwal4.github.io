@@ -8,14 +8,14 @@ redirect_from:
   - /about.html
 ---
 
-I am a co-founder and Principal AI Engineer at [K-Dense](https://k-dense.ai), and a researcher at the intersection of artificial intelligence, neuroscience, and the biology of aging. I completed my PhD at [MIT School of Engineering](https://engineering.mit.edu/) in 2025, working with [Prof. Josh McDermott](https://web.mit.edu/jhm/www/) in the [Laboratory for Computational Audition](https://mcdermottlab.mit.edu/). K-Dense is backed by the Google AI Futures Fund and the Accel Atoms program.
+I am a founding team member and Principal AI Engineer at [K-Dense](https://k-dense.ai), and a researcher at the intersection of artificial intelligence, neuroscience, and the biology of aging. I completed my PhD at [MIT School of Engineering](https://engineering.mit.edu/) in 2025, working with [Prof. Josh McDermott](https://web.mit.edu/jhm/www/) in the [Laboratory for Computational Audition](https://mcdermottlab.mit.edu/). K-Dense is backed by the Google AI Futures Fund and the Accel Atoms program.
 
 ---
 
 K-Dense
 ======
 
-K-Dense grew out of Biostate AI, which I helped co-found with the goal of applying large-scale AI to the biology of aging and disease. The core belief is simple but ambitious: AI systems should be able to do science, not just assist with it.
+K-Dense grew out of Biostate AI, which the founding team built with the goal of applying large-scale AI to the biology of aging and disease. The core belief is simple but ambitious: AI systems should be able to do science, not just assist with it.
 
 The work I am most proud of from this chapter is a collaboration with [Prof. David Sinclair](https://sinclair.hms.harvard.edu/) at Harvard Medical School — one of the world's leading researchers on the biology of aging. Together, we produced what we believe is among the first life sciences papers conducted end-to-end with AI collaboration: from data curation and hypothesis generation through analysis, interpretation, and writing. The paper maps tissue-specific aging signatures across the human transcriptome at unprecedented scale, and was made possible by autonomous AI pipelines that would have taken a conventional research team years to execute. This project represents the clearest proof-of-concept I have for the vision driving all of my work at K-Dense.
 
