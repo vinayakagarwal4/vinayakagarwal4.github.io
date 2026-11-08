@@ -1,0 +1,139 @@
+# Verified against Crossref / PubMed / arXiv / DSpace / eScholarship (Nov 2026).
+# "Me" is bolded automatically wherever "V. Agarwal" appears in authors.
+# theme: perception | ai-science
+# selected: shown on the homepage
+
+- title: "Intuitive knowledge of object acoustics enables perceptual separation of physical variables from impact sounds"
+  authors: "V. Agarwal, J. Traer, J. Schwartz, J. H. McDermott"
+  venue: "Proceedings of the National Academy of Sciences (PNAS)"
+  detail: "123(47), e2605876123"
+  year: 2026
+  url: "https://doi.org/10.1073/pnas.2605876123"
+  extra:
+    - label: "bioRxiv preprint"
+      url: "https://doi.org/10.64898/2026.01.28.702236"
+  theme: perception
+  selected: true
+
+- title: "Scientific Agent Skills: A Library of Procedural Knowledge for Research Agents"
+  authors: "T. Kassis, V. Agarwal, Y. He, D. Patel, A. M. Brueckner"
+  venue: "arXiv preprint"
+  detail: "arXiv:2609.00065"
+  year: 2026
+  url: "https://arxiv.org/abs/2609.00065"
+  extra:
+    - label: "GitHub"
+      url: "https://github.com/K-Dense-AI/scientific-agent-skills"
+  theme: ai-science
+  selected: true
+
+- title: "MetaMuse: A Multi-Agent AI System for Biomedical Metadata Curation and Harmonization"
+  authors: "E. Mittal, E. Litman, T. D. Myers, V. Agarwal, A. Gopinath, T. Kassis"
+  venue: "bioRxiv preprint"
+  year: 2026
+  url: "https://doi.org/10.64898/2026.04.12.718044"
+  theme: ai-science
+
+- title: "GeneJepa: A Predictive World Model of the Transcriptome"
+  authors: "E. Litman, T. D. Myers, V. Agarwal, E. Mittal, O. Li, A. Gopinath, T. Kassis"
+  venue: "bioRxiv preprint"
+  year: 2025
+  url: "https://doi.org/10.1101/2025.10.14.682378"
+  theme: ai-science
+
+- title: "Revive-Flow: A Foundation Model for Blood DNAm Aging"
+  authors: "E. Litman, T. D. Myers, V. Agarwal, E. Mittal, A. Gopinath, T. Kassis"
+  venue: "bioRxiv preprint"
+  year: 2025
+  url: "https://doi.org/10.1101/2025.09.18.677241"
+  theme: ai-science
+
+- title: "Guided multi-agent AI invents highly accurate, uncertainty-aware transcriptomic aging clocks"
+  authors: "V. Agarwal, O. Li, C. A. Petty, T. Kassis, P. W. K. Rothemund, D. A. Sinclair, A. Gopinath"
+  venue: "bioRxiv preprint"
+  year: 2025
+  url: "https://doi.org/10.1101/2025.09.08.674588"
+  theme: ai-science
+  selected: true
+
+- title: "The Limitations of TabPFN for High-Dimensional RNA-seq Analysis"
+  authors: "S. Zhou, V. Agarwal, A. Gopinath, T. Kassis"
+  venue: "bioRxiv preprint"
+  year: 2025
+  url: "https://doi.org/10.1101/2025.08.15.670537"
+  theme: ai-science
+
+- title: "K-Dense Analyst: Towards Fully Automated Scientific Analysis"
+  authors: "O. Li, V. Agarwal, S. Zhou, A. Gopinath, T. Kassis"
+  venue: "arXiv preprint"
+  detail: "arXiv:2508.07043"
+  year: 2025
+  url: "https://arxiv.org/abs/2508.07043"
+  theme: ai-science
+  selected: true
+
+- title: "Transcriptomic age prediction using mixture-of-experts models reveals tissue-specific aging signatures in large-scale human RNA-sequencing data"
+  authors: "Q. Quill, V. Agarwal, O. Li, A. Patil, T. Kassis, A. Gopinath"
+  venue: "medRxiv preprint"
+  year: 2025
+  url: "https://doi.org/10.1101/2025.06.28.25330474"
+  theme: ai-science
+
+- title: "Synthesis and perception of sounds from physical interactions reveals auditory intuitive physics"
+  authors: "V. Agarwal"
+  venue: "PhD thesis, Massachusetts Institute of Technology"
+  detail: "Advisor: Josh H. McDermott"
+  year: 2025
+  url: "https://hdl.handle.net/1721.1/158825"
+  theme: perception
+  selected: true
+
+- title: "Physics, ecological acoustics and the auditory system"
+  authors: "J. H. McDermott, V. Agarwal, J. Traer"
+  venue: "Current Biology"
+  detail: "34(20), R1006–R1013"
+  year: 2024
+  url: "https://doi.org/10.1016/j.cub.2024.05.056"
+  theme: perception
+  selected: true
+
+- title: "Human perception of impact sounds suggests auditory intuitive physics"
+  authors: "V. Agarwal, J. Traer, J. H. McDermott"
+  venue: "Journal of the Acoustical Society of America (meeting abstract)"
+  detail: "155(3_Supplement), A307"
+  year: 2024
+  url: "https://doi.org/10.1121/10.0027604"
+  theme: perception
+
+- title: "Sample-efficient learning of auditory object representations using differentiable impulse response synthesis"
+  authors: "V. Agarwal, J. Traer, J. H. McDermott"
+  venue: "ICML 2023 Workshop on Differentiable Almost Everything"
+  year: 2023
+  url: "https://mlanthology.org/icmlw/2023/agarwal2023icmlw-sampleefficient"
+  theme: perception
+
+- title: "Understanding auditory intuitive physics"
+  authors: "J. H. McDermott, V. Agarwal, F. De La Torre, J. Traer"
+  venue: "Journal of the Acoustical Society of America (meeting abstract)"
+  detail: "153(3_supplement), A364"
+  year: 2023
+  url: "https://doi.org/10.1121/10.0019174"
+  theme: perception
+
+- title: "Inferring object interactions from scraping and rolling sounds"
+  authors: "V. Agarwal, J. H. McDermott"
+  venue: "Proceedings of the 44th Annual Meeting of the Cognitive Science Society (CogSci 2022)"
+  year: 2022
+  url: "https://escholarship.org/uc/item/8kh1n0c7"
+  theme: perception
+
+- title: "Object-based synthesis of scraping and rolling sounds based on non-linear physical constraints"
+  authors: "V. Agarwal, M. Cusimano, J. Traer, J. H. McDermott"
+  venue: "24th International Conference on Digital Audio Effects (DAFx20in21)"
+  detail: "pp. 136–143"
+  year: 2021
+  url: "https://doi.org/10.23919/DAFx51585.2021.9768225"
+  extra:
+    - label: "arXiv"
+      url: "https://arxiv.org/abs/2112.08984"
+  theme: perception

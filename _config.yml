@@ -10,8 +10,8 @@ locale                   : "en-US"
 title                    : "Vinayak Agarwal's homepage"
 title_separator          : "-"
 name                     : &name "Vinayak Agarwal"
-description              : &description "Principal AI Engineer at K-Dense | MIT PhD '25 in Brain and Cognitive Sciences | Building AI systems for biology and aging"
-url                      : "https://www.vinayak-agarwal.com" #"https://vinayakagarwal4.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+description              : &description "Founding Head of Forward Deployed Engineering at Composio. MIT PhD on auditory intuitive physics. Previously founding team at K-Dense, building AI for science."
+url                      : "https://vinayak-agarwal.com"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "vinayakagarwal4/vinayakagarwal4.github.io"
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
@@ -73,7 +73,7 @@ social:
 
 # Analytics
 analytics:
-  provider               :  "google-universal" # false (default), "google", "google-universal", "custom"
+  provider               : false
   google:
     tracking_id          :
 
@@ -81,13 +81,13 @@ analytics:
 # Site Author
 author:
   name             : "Vinayak Agarwal"
-  avatar           : "220815a_448.jpg"
-  bio              : "Principal AI Engineer @ K-Dense | MIT PhD '25 (McDermott Lab, BCS)"
-  location         : "Palo Alto, CA"
-  employer         : "K-Dense Inc."
+  avatar           : "portrait.jpg"
+  bio              : "Founding Head of FDE @ Composio | MIT PhD"
+  location         : "San Francisco, CA"
+  employer         : "Composio"
   pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   googlescholar    : "https://scholar.google.com/citations?user=NTuU8YIAAAAJ"
-  email            : "vinayak.agarwal@k-dense.ai"
+  email            :
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
@@ -174,20 +174,6 @@ kramdown:
 
 
 # Collections
-collections:
-  teaching:
-    output: true
-    permalink: /:collection/:path/
-  publications:
-    output: true
-    permalink: /:collection/:path/
-  portfolio:
-    output: true
-    permalink: /:collection/:path/
-  talks:
-    output: true
-    permalink: /:collection/:path/
-
 
 # Defaults
 defaults:

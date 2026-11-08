@@ -1,0 +1,37 @@
+---
+layout: vin
+title: "Publications"
+permalink: /publications/
+description: "Publications by Vinayak Agarwal on auditory intuitive physics, physics-based sound synthesis, and AI for science."
+redirect_from:
+  - /publications/DAFx2021_scrape_roll/
+  - /publications/2025-01-genejepa/
+  - /publications/2025-02-revive-flow/
+  - /publications/2025-03-kdense-analyst/
+  - /publications/2025-04-transcriptomic-age/
+  - /publications/2025-05-tabpfn/
+  - /publications/2026-01-metamuse/
+---
+
+<div class="wrap">
+  <header class="pagehead">
+    <h1>Publications</h1>
+    <p>Two bodies of work: how people perceive the physical world through sound (MIT), and AI for biology and science, from foundation models of omics data to agents that do research (Biostate AI and K-Dense). Also on <a href="{{ site.author.googlescholar }}">Google Scholar</a>.</p>
+  </header>
+
+  <section class="group" aria-labelledby="perception">
+    <h2 id="perception">Perception &amp; auditory intuitive physics</h2>
+    <ul class="pubs">
+      {% assign ps = site.data.publications | where: "theme", "perception" %}
+      {% for p in ps %}{% include vin-pub.html pub=p %}{% endfor %}
+    </ul>
+  </section>
+
+  <section class="group" aria-labelledby="ai-science">
+    <h2 id="ai-science">AI for science &amp; biology</h2>
+    <ul class="pubs">
+      {% assign ps = site.data.publications | where: "theme", "ai-science" %}
+      {% for p in ps %}{% include vin-pub.html pub=p %}{% endfor %}
+    </ul>
+  </section>
+</div>

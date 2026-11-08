@@ -1,0 +1,52 @@
+---
+layout: vin
+title: "CV"
+permalink: /cv/
+description: "CV of Vinayak Agarwal: Composio, K-Dense, Biostate AI, MIT PhD, IIT Bombay."
+redirect_from:
+  - /resume
+  - /resume/
+---
+{% assign cv = site.data.experience %}
+<div class="wrap">
+  <header class="pagehead">
+    <h1>CV</h1>
+    <p>For the full story, see <a href="https://www.linkedin.com/in/{{ site.author.linkedin }}">LinkedIn</a>. For papers, see <a href="{{ '/publications/' | relative_url }}">Publications</a>.</p>
+  </header>
+
+  <section class="group" aria-labelledby="exp">
+    <h2 id="exp">Experience</h2>
+    {% for e in cv.experience %}
+    <div class="cv-item">
+      <p class="cv-item__when">{{ e.period }}</p>
+      <div>
+        <h3>{{ e.title }} <span>· {% if e.url %}<a href="{{ e.url }}">{{ e.org }}</a>{% else %}{{ e.org }}{% endif %}, {{ e.place }}</span></h3>
+        <p>{{ e.summary }}</p>
+      </div>
+    </div>
+    {% endfor %}
+  </section>
+
+  <section class="group" aria-labelledby="edu">
+    <h2 id="edu">Education</h2>
+    {% for e in cv.education %}
+    <div class="cv-item">
+      <p class="cv-item__when">{{ e.period }}</p>
+      <div>
+        <h3>{{ e.degree }} <span>· {{ e.school }}</span></h3>
+        <p>{{ e.note }}</p>
+      </div>
+    </div>
+    {% endfor %}
+  </section>
+
+  <section class="group" aria-labelledby="honors">
+    <h2 id="honors">Fellowships &amp; honors</h2>
+    <ul class="plain">{% for h in cv.honors %}<li>{{ h }}</li>{% endfor %}</ul>
+  </section>
+
+  <section class="group" aria-labelledby="service">
+    <h2 id="service">Service &amp; outreach</h2>
+    <ul class="plain">{% for h in cv.service %}<li>{{ h }}</li>{% endfor %}</ul>
+  </section>
+</div>

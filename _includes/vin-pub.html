@@ -1,0 +1,9 @@
+{% assign p = include.pub %}
+<li class="pub">
+  <span class="pub__year">{{ p.year }}</span>
+  <div>
+    <a class="pub__title" href="{{ p.url }}">{{ p.title }}</a>
+    <p class="pub__authors">{{ p.authors | replace: "V. Agarwal", "<strong>V. Agarwal</strong>" }}</p>
+    <p class="pub__venue"><em>{{ p.venue }}</em>{% if p.detail %}, {{ p.detail }}{% endif %}{% for x in p.extra %} · <a href="{{ x.url }}">{{ x.label }}</a>{% endfor %}</p>
+  </div>
+</li>

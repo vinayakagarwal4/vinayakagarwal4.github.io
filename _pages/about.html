@@ -1,0 +1,126 @@
+---
+layout: vin
+permalink: /
+title: "About"
+description: "Founding Head of Forward Deployed Engineering at Composio. MIT PhD on how we hear physics, now in PNAS. Previously founding team at K-Dense."
+redirect_from:
+  - /about/
+  - /about.html
+---
+
+<section class="hero">
+  <div class="wrap hero__grid">
+    <div>
+      <p class="eyebrow">Founding Head of FDE · Composio</p>
+      <h1>Vinayak Agarwal</h1>
+      <p class="hero__lede">I build <strong>AI agents that do real work</strong>. Before that, I studied how the human brain works out the <strong>physics of the world from sound</strong>.</p>
+      <div class="hero__body">
+        <p>I'm building the Forward Deployed Engineering function at <a href="https://composio.dev">Composio</a>, taking agents from prototype into production inside enterprises. Before that I was on the founding team of <a href="https://k-dense.ai">K&#8209;Dense</a>, building AI co&#8209;scientists. Before that I did a PhD at MIT with <a href="https://mcdermottlab.mit.edu">Josh McDermott</a> on auditory intuitive physics. The capstone of that PhD is <a href="#new-paper">out now in PNAS</a>.</p>
+      </div>
+      {% include vin-links.html %}
+    </div>
+    <div class="hero__photo">
+      <img class="portrait" src="{{ '/images/portrait.jpg' | relative_url }}" alt="Portrait of Vinayak Agarwal" width="600" height="900">
+    </div>
+  </div>
+</section>
+
+<section class="section" id="now" aria-labelledby="now-title">
+  <div class="wrap section__head">
+    <p class="section__label">Now</p>
+    <div>
+      <h2 id="now-title">Agents in production at Composio</h2>
+      <div class="prose">
+      <p>Composio is the tool-calling and integration layer that AI agents use to take action across more than a thousand apps and APIs. Since June 2026 I've been building its <strong>Forward Deployed Engineering</strong> team from the ground up. We work directly with enterprise teams to get their agents into production: how agents authenticate, act safely across real software, and get evaluated.</p>
+      <p>The part I find most interesting is the gap between an agent that demos well and one a company can rely on. Closing it is mostly careful engineering and careful measurement of systems that are not deterministic. That is where years of designing experiments turn out to be useful.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="new-paper" aria-labelledby="new-paper-title">
+  <div class="wrap section__head">
+    <p class="section__label">New paper · Nov 2026</p>
+    <div>
+      <h2 id="new-paper-title">How we hear what things are made of</h2>
+      {% assign pnas = site.data.publications | where: "year", 2026 | where: "theme", "perception" | first %}
+      <article class="feature">
+        <p class="feature__meta"><strong>PNAS</strong> · 2026 · first author</p>
+        <h3><a href="{{ pnas.url }}">{{ pnas.title }}</a></h3>
+        <p class="authors">{{ pnas.authors | replace: "V. Agarwal", "<strong>V. Agarwal</strong>" }}</p>
+        <p>When two objects collide, you can hear what they're made of and how heavy they are, even though the sound blends contributions from both. We recorded the acoustic "fingerprints" of hundreds of everyday objects, built a generative model from their statistics, and used it to synthesize controlled collisions. Listeners judged these properties accurately. But when both objects varied, their judgments got worse whenever the synthetic resonances departed from real-world statistics. The brain appears to carry an internal model of how objects sound, and it uses that model to split a sound into its physical causes.</p>
+        <div class="btnrow">
+          <a class="btn btn--primary" href="{{ pnas.url }}">Read in PNAS</a>
+          <a class="btn" href="https://doi.org/10.64898/2026.01.28.702236">Preprint</a>
+          <a class="btn" href="https://hdl.handle.net/1721.1/158825">PhD thesis</a>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="path" aria-labelledby="path-title">
+  <div class="wrap section__head">
+    <p class="section__label">The path</p>
+    <div>
+      <h2 id="path-title">From hearing physics to building agents</h2>
+      <p class="prose">The common thread is building models of how the world works, testing them hard against real data, and then putting them to work. I've done that first in human perception, then in biology, and now with agents that act on the world.</p>
+      <ol class="arc">
+        <li>
+          <span class="arc__when">2026 – now</span>
+          <h3>Agents that act · Composio</h3>
+          <p>Founding Head of Forward Deployed Engineering. <a href="#now">More above ↑</a></p>
+        </li>
+        <li>
+          <span class="arc__when">2024 – 2026</span>
+          <h3>AI that does science · Biostate AI &amp; K&#8209;Dense</h3>
+          <p>At Biostate AI I contributed to foundation models of biology (<a href="https://doi.org/10.1101/2025.10.14.682378">GeneJepa</a>, <a href="https://doi.org/10.1101/2025.09.18.677241">Revive-Flow</a>) and to the agents that grew into K&#8209;Dense: <a href="https://arxiv.org/abs/2508.07043">K&#8209;Dense Analyst</a> for automated scientific analysis, and later <a href="https://github.com/K-Dense-AI/scientific-agent-skills">Scientific Agent Skills</a>, an open-source skills library for research agents with 50k+ GitHub stars. I was first author on work in which a <a href="https://doi.org/10.1101/2025.09.08.674588">guided multi-agent AI system invented transcriptomic aging clocks</a> that are accurate and know when their own predictions are uncertain, with collaborators including David Sinclair's lab at Harvard Medical School.</p>
+        </li>
+        <li>
+          <span class="arc__when">2018 – 2025</span>
+          <h3>How the brain hears physics · MIT</h3>
+          <p>PhD at MIT, from 2020 with Josh McDermott in the Laboratory for Computational Audition (and before that in ocean acoustics with Nicholas Makris). I built differentiable, physics-based synthesizers for impacts, scrapes and rolls, and used them to ask what listeners actually infer from sound. The answer is a kind of <em>auditory intuitive physics</em>. I was a major contributor to the audio in the <a href="https://arxiv.org/abs/2007.04954">ThreeDWorld</a> simulator, whose paper cites my scraping-and-rolling synthesis model as its first reference. Along the way I also consulted for NVIDIA, and worked on generative spatial audio at Meta Reality Labs.</p>
+        </li>
+        <li>
+          <span class="arc__when">2013 – 2018</span>
+          <h3>Acoustics and music · IIT Bombay</h3>
+          <p>B.Tech + M.Tech in Mechanical Engineering, with a thesis on the acoustics of engineered foams. Research internships at CNRS Marseille (gesture-controlled sound synthesis) and Simon Fraser University (machine transcription of electronic music).</p>
+        </li>
+      </ol>
+    </div>
+  </div>
+</section>
+
+<section class="section" aria-labelledby="pubs">
+  <div class="wrap section__head">
+    <p class="section__label">Papers</p>
+    <div>
+      <h2 id="pubs">Selected publications</h2>
+      <ul class="pubs">
+        {% assign selected = site.data.publications | where: "selected", true %}
+        {% for p in selected %}{% if p.url != pnas.url %}{% include vin-pub.html pub=p %}{% endif %}{% endfor %}
+      </ul>
+      <p class="more"><a href="{{ '/publications/' | relative_url }}">All publications →</a></p>
+    </div>
+  </div>
+</section>
+
+<section class="section" aria-labelledby="beyond">
+  <div class="wrap section__head">
+    <p class="section__label">Off the clock</p>
+    <div>
+      <h2 id="beyond">Music and outreach</h2>
+      <div class="cards">
+        <div class="card">
+          <h3>Mohan Veena</h3>
+          <p>I've played Hindustani classical music on the <a href="https://en.wikipedia.org/wiki/Mohan_veena">Mohan Veena</a> since 2009. I trained under Pt. Devendra Mishra in the Maihar gharana, the lineage of Pt. Ravi Shankar. I've performed in four countries, including fusion sets and live scores for dance and theatre, and gave a lecture-demonstration at Berklee College of Music in 2018.</p>
+          <p><a href="https://www.youtube.com/watch?v=RX8kgRuJnr4">Watch a Hindustani music clinic →</a></p>
+        </div>
+        <div class="card">
+          <h3>Talking about science</h3>
+          <p>I've explained how hearing works on Jim Jefferies' podcast <em>I Don't Know About That</em> (now <em>At This Moment</em>), in the 2022 episode <a href="https://podcasts.apple.com/us/podcast/hearing/id1502150789?i=1000570437116">“Hearing”</a>. I've also taught through MIT Splash and Skype a Scientist, and founded MIT Shruti.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
